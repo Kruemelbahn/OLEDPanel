@@ -1,0 +1,12 @@
+// rotate display 180°
+void lcd_flip(uint8_t flip){
+    uint8_t commandSequence[2];
+    if (flip != YES) {
+        commandSequence[0] = 0xA1;      // normal
+        commandSequence[1] = 0xC8;
+    } else {
+        commandSequence[0] = 0xA0;      // gedreht
+        commandSequence[1] = 0xC0;
+    }
+    lcd_command(commandSequence, 2);
+}

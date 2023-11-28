@@ -1,0 +1,48 @@
+#######################################
+# Syntax Coloring Map For Buttons
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BounceSimplePcf	KEYWORD1
+OLEDPanel	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+charModeDouble	KEYWORD2
+clear	KEYWORD2
+clearLine	KEYWORD2
+clearToEOL	KEYWORD2
+cursor	KEYWORD2
+detect_i2c	KEYWORD2
+noCursor	KEYWORD2
+print	KEYWORD2
+printc	KEYWORD2
+printOuterFrame	KEYWORD2
+readButtons	KEYWORD2
+refresh	KEYWORD2
+setCursor	KEYWORD2
+
+update	 KEYWORD2
+interval	 KEYWORD2
+read	 KEYWORD2
+attach	 KEYWORD2
+rose	KEYWORD2
+fell	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+BUTTON_UP	LITERAL1
+BUTTON_DOWN	LITERAL1
+BUTTON_LEFT	LITERAL1
+BUTTON_RIGHT	LITERAL1
+BUTTON_SELECT	LITERAL1
+BUTTON_FCT_BACK	LITERAL1
+BUTTON_UPDOWN	LITERAL1
+BUTTON_MENU	LITERAL1
