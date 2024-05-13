@@ -1,7 +1,7 @@
 /*
 ||
 || @file OLEDPanel.h
-|| @version 1.0
+|| @version 1.1
 || @author Michael Zimmermann
 || @contact michael.zimmermann.sg@t-online.de
 ||
@@ -103,6 +103,7 @@ class OLEDPanel : public Print {
 
 		size_t print(const __FlashStringHelper *pText);
 		size_t print(const char *pText);
+		size_t print(const String& s);
 		size_t print(char ch);
 		size_t print(uint8_t x, uint8_t y, char ch);
 		size_t print(uint8_t ui8Value, int iType);

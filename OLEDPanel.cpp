@@ -1,7 +1,7 @@
 /*
 ||
 || @file OLEDPanel.cpp
-|| @version 1.0
+|| @version 1.1
 || @author Michael Zimmermann
 || @contact michael.zimmermann.sg@t-online.de
 ||
@@ -236,6 +236,19 @@ size_t OLEDPanel::print(const char *pText)
 	while (*pText)
 	{
 		lcd_putc((unsigned char)(*pText++));
+		++iCount;
+	}
+
+	return iCount;
+}
+
+size_t OLEDPanel::print(const String& s)
+{
+	// count chars to display
+	register uint8_t iCount(0);
+	for (uint16_t i = 0; i < s.length(); i++)
+	{
+		lcd_putc((unsigned char)(s[i]));
 		++iCount;
 	}
 
