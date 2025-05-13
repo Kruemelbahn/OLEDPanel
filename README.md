@@ -6,7 +6,7 @@ The library encapsulates and expands the original OLED-files into a new class "O
 
 This library also includes functionality for button-states which gives more functionality to the new designed PCB.
 
-![OLED-Panel-Device](/Images/OLED-Panel-Device.png)<br>
+PCB for OLEDPanel is available.<br>
 Tested on ATmega328.
 
 ### original files
